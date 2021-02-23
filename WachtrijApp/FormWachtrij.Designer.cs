@@ -49,7 +49,6 @@
             this.labelTitel.Size = new System.Drawing.Size(223, 40);
             this.labelTitel.TabIndex = 0;
             this.labelTitel.Text = "Superboy ride";
-            this.labelTitel.Click += new System.EventHandler(this.labelTitel_Click);
             // 
             // labelWachttijd
             // 
@@ -123,7 +122,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormWachtrij";
             this.Text = "Superboy ride";
-            this.Load += new System.EventHandler(this.FormWachtrij_Load);
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
