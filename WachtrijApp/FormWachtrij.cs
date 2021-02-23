@@ -100,7 +100,7 @@ namespace WachtrijApp
             return Wachttijd;
 
             string node09 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor09").InnerText;
-            if (node08 == "False")
+            if (node09 == "False")
             {
                 return Wachttijd;
             }
@@ -109,7 +109,7 @@ namespace WachtrijApp
             return Wachttijd;
                         
             string node10 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor10").InnerText;
-            if (node08 == "False")
+            if (node10 == "False")
             {
                 return Wachttijd;
             }
@@ -118,7 +118,7 @@ namespace WachtrijApp
             return Wachttijd;
                         
             string node11 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor11").InnerText;
-            if (node08 == "False")
+            if (node11 == "False")
             {
                 return Wachttijd;
             }
@@ -127,7 +127,7 @@ namespace WachtrijApp
             return Wachttijd;
                         
             string node12 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor12").InnerText;
-            if (node08 == "False")
+            if (node12 == "False")
             {
                 return Wachttijd;
             }
